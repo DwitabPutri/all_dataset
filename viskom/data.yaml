@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['badan_sapi', 'sapi']
+
+roboflow:
+  workspace: sapi-vorqi
+  project: sapi2.0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sapi-vorqi/sapi2.0/dataset/1
